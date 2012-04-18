@@ -19,7 +19,7 @@ How to get the details for a giftcard: ::
 
     from griftcard import Griftcard
     grift = Griftcard(card_number='41111111111111',
-        phone_number='555-555-1111', security_code='111')
+        phone_number='5555551111', security_code='111')
     print grift.balance
     print grift.transactions
 
