@@ -1,0 +1,6 @@
+testify
+pep8
+pyflakes
+requests
+simplejson
+BeautifulSoup

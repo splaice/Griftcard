@@ -1,0 +1,461 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Transaction History</title>
+    <link href="/Content/CSS/Mygift/BlissGCM.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/CSS/Mygift/Site.css" rel="stylesheet" type="text/css" />
+    <script src="/Scripts/jquery-1.4.4.min.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.unobtrusive-ajax.min.js" type="text/javascript"></script>
+     <link type="text/css" href="/Content/2010.3.1110/telerik.common.min.css" rel="stylesheet"/>
+<link type="text/css" href="/Content/2010.3.1110/telerik.webblue.min.css" rel="stylesheet"/>
+
+    <script type="text/javascript">
+        function Route(path) {
+            document.location = path;
+            return;
+        }
+    </script>
+</head>
+
+<body>
+    <div style="display: none;"></div>
+    <div><div><div>
+    <div id="logo"></div>
+
+ <div id="nav">
+
+      <div id="/MCRootForm:itemId3"><div><div>    
+
+    <div>
+
+      <div id="/HeaderForm:itemId8"><div><div>
+
+    <div id="/HeaderNavForm:navDeck">
+    <div>
+     
+                <div style="width: 100%; height: 100%; padding: 0px; margin: 0px;">
+                <div style="width: 100%; height: 100%;">
+                <div id="/HeaderNavForm:itemId29"><div><div>
+                    <ul>
+                       <li>
+                            <div id="/NavForm:itemId95"><button class="gwt-Button headerlink" type="button" tabindex="0" onclick="Route('/Account/Register')">Register</button></div>
+                       </li>
+                        <li>
+                            <div id="/NavForm:itemId96"><button class="gwt-Button headerlink" type="button" tabindex="0" onclick="Route('/TransactionHistory')">History</button></div>
+                        </li>
+                        <li>
+                            <div id="/NavForm:itemId97"><button class="gwt-Button headerlink" type="button" tabindex="0" onclick="Route('/MyCard/Logout')">Logout</button></div>
+                      </li>
+                    </ul>
+                </div></div></div>
+              </div></div>
+      
+      </div></div>
+
+  
+
+  </div></div></div>
+
+    </div>
+
+  </div></div></div>
+
+    </div>
+
+    <div id="main">
+      <div id="/MCRootForm:itemId4"><div><div>
+        <div id="/ContentForm:contentDeck">
+            <link rel="stylesheet" type="text/css" href=/Content/Print.css media="print" /> 
+<form action="/TransactionHistory" id="frmTH" method="post"><div style="width: 100%; height: 100%; padding: 0px; margin: 0px;"><div style="width: 100%; height: 100%;">
+
+         <div id="/LoggedInForm:itemId45"><div><div>
+
+      <div id="/AccountHistoryForm:accountHistoryDeck"><div><div style="width: 100%; height: 100%; padding: 0px; margin: 0px;"><div style="width: 100%; height: 100%;">
+
+        <div class="contentbox">
+
+          <div id="/AccountHistoryForm:itemId257"><div>
+
+            <div id="account">
+
+              <h1 id="TxHistory_Header">
+
+                <div id="/AccountHistoryForm:itemId258"><div class="gwt-HTML txfLabel label unaligned">MY CARD ACCOUNT : Transaction History</div></div>
+
+              </h1>
+
+              <div id="/AccountHistoryForm:histCardHeaderForm"><div><div><div><div>
+
+      <div id="/CardHeaderForm__namespaceId2/CardHeaderForm:cardSummaryDeck"><div><div style="width: 100%; height: 100%; padding: 0px; margin: 0px;"><div style="width: 100%; height: 100%;">
+
+              <div class="sidebox">
+
+                <dl>
+
+                <table>
+
+                  <tbody><tr>
+
+                    <td>
+
+                       <table>
+
+                        <tbody><tr>
+
+                          <td width="50%">
+
+                            <div id="/CardHeaderForm__namespaceId2/CardHeaderForm:itemId4"><div class="gwt-HTML txfLabel">  </div></div>
+
+                          </td>                       
+
+                        </tr>
+
+                      </tbody></table>		
+                       
+
+                     </td>
+
+                  </tr>
+
+                  <tr>
+
+                    <td>
+
+                    
+
+                       <table>
+
+                        <tbody><tr>
+
+                          <td width="100%">
+
+                             <div id="/CardHeaderForm__namespaceId2/CardHeaderForm:itemId5"><div class="gwt-HTML txfLabel"> 4358-80XX-XXXX-3740 </div></div>
+
+                          </td>                               
+
+                        </tr>
+
+                      </tbody></table>		
+
+                       
+
+                     </td>                          
+
+                  </tr>
+
+                    <tr>
+
+                      <td>
+
+                      
+
+                        <table>
+
+                            <tbody><tr>                             
+
+                               <td width="100%">
+
+                                 <div id="/CardHeaderForm__namespaceId2/CardHeaderForm:itemId6"><div class="gwt-HTML txfLabel">Status : OPEN</div></div>
+
+                              </td>
+
+                            </tr>
+
+                        </tbody></table>
+
+                      
+
+                     </td>
+
+                    </tr>
+
+                    <tr>
+
+                     <td>
+
+                    
+
+                        <table>
+
+                            <tbody><tr>                             
+
+                               <td width="100%">
+
+                                 <div id="/CardHeaderForm__namespaceId2/CardHeaderForm:itemId7"><div class="gwt-HTML txfLabel">Expiration : 5/31/2020</div></div>
+
+                              </td>
+
+                            </tr>
+
+                        </tbody></table>
+
+                    
+
+                     </td>                          
+
+                    </tr>
+
+                    <tr>
+
+                     <td>
+
+                  
+
+                        <table>
+
+                            <tbody><tr>
+
+                               <td width="100%">
+
+                                 <b><div id="/CardHeaderForm__namespaceId2/CardHeaderForm:itemId8"><div class="gwt-HTML txfLabel"><b xmlns="http://www.w3.org/1999/xhtml">Balance : $7.37</b></div></div></b>
+
+                              </td>
+
+                            </tr>
+
+                        </tbody></table>
+
+                  
+
+                     </td>
+
+                    </tr>
+
+                   </tbody></table>                                 
+
+                  </dl>
+
+              </div>
+
+         </div></div></div></div>
+
+
+  </div></div></div></div></div>
+
+              <div class="maintext" id="TxHistory_MainText">
+
+          <div id="/AccountHistoryForm:itemId259"><div class="gwt-HTML txfLabel"></div></div>
+          <div>
+
+            <div id="accountHistoryTransactionTableHeader">
+              
+                <fieldset style="background-color:#e6e6e6;">
+                <div id="div1" class="text-vertical-align-div" style="float:right; margin-left:30px;margin-right:10px;margin-top:10px;">
+                <a href="/TransactionHistory/DisputeForm" class="blue-link-a">
+                <span class="text-vertical-align-span">Dispute transaction</span>
+                &nbsp;<img src='/Content/Images/icon-dispute.png' alt='' border="0"/>
+                </a>
+                </div>
+                <div id="div2" class="text-vertical-align-div" style="float:right;margin-top:10px;height:20px;">
+                <a href="#" id="exportLink" class="blue-link-a" onclick="javascript:window.print();">
+                <span class="text-vertical-align-span">Print this page</span>
+                &nbsp;<img src='/Content/Images/icon-print.png' alt='' border="0" />
+                </a>
+                </div>
+                <div id="div3" style="clear:both;"></div>
+                <div id="div4" style="color:gray;font-size:.88em;font-style:italic;margin-left:10px;margin-right:10px;font-family:Helvetica, Arial, Verdana, sans-serif;">
+                Please note: Your available funds are based on pending and paid transactions. If multiple cards are linked to one card account, the available balance amount will reflect the balance for all cards. &nbsp;
+                <a href="/TransactionHistory/PendingTransactions" style="color:gray;font-style:italic;text-decoration:underline;" >
+                Click here to learn how transactions are posted to my account</a>
+             </div>
+             <div class="text-vertical-align-div" style="float:right;margin-top:5px;margin-right:10px;margin-bottom:10px;">
+           
+           <style type="text/css">
+           .calendar-input input{padding:0px ! important;font-size:.95em ! important;}           
+           </style>
+
+<span style="line-height:20px;vertical-align:20%;">Date from:</span>
+
+ <div class="t-widget t-datepicker calendar-input" id="DateFrom" style="width: 8em;"><div class="t-picker-wrap"><input class="t-input" id="DateFrom-input" name="DateFrom" value="2/17/2012" /><span class="t-select"><span class="t-icon t-icon-calendar" title="Open the calendar"></span></span></div></div> 
+
+
+ <span style="line-height:20px;vertical-align:20%;margin-left:15px;">Date to:</span>
+
+<div class="t-widget t-datepicker calendar-input" id="DateTo" style="width: 8em"><div class="t-picker-wrap"><input class="t-input" id="DateTo-input" name="DateTo" value="4/17/2012" /><span class="t-select"><span class="t-icon t-icon-calendar" title="Open the calendar"></span></span></div></div>                 <a id="aTH" href="#" onclick="javascript:$('#frmTH').get()[0].submit();" class="blue-link-a">
+                <span class="text-vertical-align-span" style="margin-left:15px;">Show Transaction History</span>
+                </a>
+             </div>
+             <div id="div5" style="clear:both;"></div>
+            </fieldset>
+            </div>
+
+            <div id="/AccountHistoryForm:accountHistoryTransactionList"><div><div style="width: 100%; height: 100%; padding: 0px; margin: 0px;"><div style="width: 100%; height: 100%;">
+
+              <div id="accountHistoryTransactionTable">
+
+                <div id="/AccountHistoryForm:transactionTable">
+                    
+                    <div  style="font-size:.9em">
+
+                    <script type="text/javascript">
+
+          function onDataBound() {
+              var grid = $(this).data('tGrid');
+              var $exportLink = $('#exportLink');
+              var href = $exportLink.attr('href');
+              href = href.replace(/page=([^&]*)/, 'page=' + grid.currentPage);
+              href = href.replace(/orderBy=([^&]*)/, 'orderBy=' + (grid.orderBy || '~'));
+              href = href.replace(/filter=(.*)/, 'filter=' + (grid.pageSize || '~'));
+              $exportLink.attr('href', href);
+          }
+    </script>
+
+           
+
+
+                <div class="t-widget t-grid" id="Grid"><table cellspacing="0"><colgroup><col class="t-hierarchy-col" /><col style="width:100px" /><col style="width:150px" /><col /><col style="width:100px" /><col style="width:100px" /></colgroup><thead class="t-grid-header"><tr><th class="t-header t-hierarchy-cell">&nbsp;</th><th class="t-header" scope="col"><a class="t-link" href="/TransActionHistory?Grid-orderBy=Date-asc">Date</a></th><th class="t-header" scope="col"><a class="t-link" href="/TransActionHistory?Grid-orderBy=Type-asc">Type</a></th><th class="t-header" scope="col"><a class="t-link" href="/TransActionHistory?Grid-orderBy=Description-asc">Description</a></th><th class="t-header" scope="col"><a class="t-link" href="/TransActionHistory?Grid-orderBy=Amount-asc">Amount</a></th><th class="t-last-header t-header" scope="col"><a class="t-link" href="/TransActionHistory?Grid-orderBy=Balance-asc">Balance</a></th></tr></thead><tfoot><tr><td class="t-pager-wrapper" colspan="6"><div class="t-status"><a class="t-icon t-refresh" href="/TransActionHistory"></a></div><div class="t-pager t-reset"><a class="t-link t-state-disabled" href="#"><span class="t-icon t-arrow-first">first</span></a><a class="t-link t-state-disabled" href="#"><span class="t-icon t-arrow-prev">prev</span></a><div class="t-numeric"><span class="t-state-active">1</span></div><a class="t-link t-state-disabled" href="#"><span class="t-icon t-arrow-next">next</span></a><a class="t-link t-state-disabled" href="#"><span class="t-icon t-arrow-last">last</span></a></div><div class="t-status-text">Displaying items 0 - 0 of 0</div></td></tr></tfoot><tbody><tr class="t-no-data"><td colspan="6">No records to display.</td></tr></tbody></table></div>
+                
+    
+            </div>
+                    
+                </div>
+
+              </div>
+
+
+            <div id="accountHistoryFooter" class="info inline-container">
+
+              <span class="transaction_history_transaction_flag_fee">&nbsp;</span>  <div id="/AccountHistoryForm:itemId281"><div class="gwt-HTML txfLabel">Indicates that the amount has fees included in the total (click "+" to view additional transaction details)</div></div>
+
+            </div>
+
+            
+
+            </div></div><div style="width: 100%; height: 100%; padding: 0px; margin: 0px; display: none;"><div style="width: 100%; height: 100%; display: none;">
+
+              <div id="accountHistoryTransactionTable">
+
+                <table class="data_table" id="transactionTable">
+
+                  <tbody><tr>
+
+                    <th class="transaction_history_toggle">
+
+                      &nbsp;
+
+                    </th>
+
+                    <th class="transaction_history_date">
+
+                      <div id="/AccountHistoryForm:itemId283"><div class="gwt-HTML txfLabel">Date</div></div>
+
+                    </th>
+
+                    <th class="transaction_history_type">
+
+                      <div id="/AccountHistoryForm:itemId284"><div class="gwt-HTML txfLabel">Type</div></div>
+
+                    </th>
+
+                    <th class="transaction_history_desc">
+
+                      <div id="/AccountHistoryForm:itemId285"><div class="gwt-HTML txfLabel">Description</div></div>
+
+                    </th>
+
+                    <th class="transaction_history_amount">
+
+                      <div id="/AccountHistoryForm:itemId286"><div class="gwt-HTML txfLabel">Amount</div></div>
+
+                    </th>
+
+                    <th class="transaction_history_balance">
+
+                      <div id="/AccountHistoryForm:itemId287"><div class="gwt-HTML txfLabel">Balance</div></div>
+
+                    </th>
+
+                  </tr>
+
+                  <tr class="noTransactions">
+
+                    <td colspan="6">
+
+                      <div id="/AccountHistoryForm:itemId288"><div class="gwt-HTML txfLabel">There are no transactions for the selected date range.</div></div>
+
+                    </td>
+
+                  </tr>
+
+                </tbody></table>
+
+              </div>
+
+            </div></div></div></div>
+
+  
+
+          </div>
+
+              </div>
+
+            </div>
+
+          </div></div>
+
+        </div>
+
+
+        </div></div>
+       
+        
+        </div></div>
+
+  </div></div></div>
+
+      </div></div>
+</form>
+
+       </div>
+
+    <div id="footer">
+      <div id="/ContentForm:itemId21"><div><div>
+    <ul style="width:120%;" >
+                      <li style="padding-left:70px; border:none;" >&nbsp; 
+                      </li>
+      <li>
+            <div id="/FooterForm:itemId87"><button class="gwt-Button footerlink" type="button" tabindex="0" onclick="Route('/TransactionHistory')">Home</button></div>
+      </li>
+      <li>
+        <div id="/FooterForm:itemId88"><button class="gwt-Button footerlink" type="button" tabindex="0" onclick="Route('/StaticContent/Faq')">FAQ</button></div>
+      </li>
+      <li>
+        <div id="/FooterForm:itemId89"><button class="gwt-Button footerlink" type="button" tabindex="0" onclick="Route('/StaticContent/ContactUs')">Contact Us</button></div>
+      </li>
+      <li>
+        <div id="/FooterForm:itemId90"><button class="gwt-Button footerlink" type="button" tabindex="0" onclick="Route('/StaticContent/Privacy')">Privacy</button></div>
+      </li>
+      <li id="last" >
+        <div id="/FooterForm:itemId91"><button class="gwt-Button footerlink" type="button" tabindex="0" onclick="Route('/StaticContent/TermsAndConditions')">Terms &amp; Conditions</button></div>
+      </li>
+    </ul>
+            <div id="/FooterForm:itemId92"><div class="gwt-HTML txfLabel"><small>Your Visa Gift Card is issued by MetaBank<sup>™</sup>, Member FDIC, pursuant to a license from Visa
+            U.S.A., Inc, and may be used in the United States wherever Visa debit cards are accepted. <br />© 2011 Blackhawk Network, Inc. All rights reserved</small></div></div>
+  </div></div></div>
+
+    </div>
+
+  </div></div></div>
+
+    </div>
+
+    
+
+  </div></div></div>
+
+    <script type="text/javascript" src="/Scripts/2010.3.1110/jquery-1.4.3.min.js"></script>
+<script type="text/javascript" src="/Scripts/2010.3.1110/telerik.common.min.js"></script>
+<script type="text/javascript" src="/Scripts/2010.3.1110/telerik.calendar.min.js"></script>
+<script type="text/javascript" src="/Scripts/2010.3.1110/telerik.datepicker.min.js"></script>
+<script type="text/javascript" src="/Scripts/2010.3.1110/telerik.grid.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+jQuery(document).ready(function(){
+jQuery('#DateFrom').tDatePicker({format:'M/d/yyyy', selectedValue:new jQuery.telerik.datetime(2012,01,17), minDate:new jQuery.telerik.datetime(1899,11,31), maxDate:new jQuery.telerik.datetime(2100,00,01)});
+jQuery('#DateTo').tDatePicker({format:'M/d/yyyy', selectedValue:new jQuery.telerik.datetime(2012,03,17), minDate:new jQuery.telerik.datetime(1899,11,31), maxDate:new jQuery.telerik.datetime(2100,00,01)});
+jQuery('#Grid').tGrid({columns:[{"title":"Date","member":"Date","type":"String"},{"title":"Type","member":"Type","type":"String"},{"title":"Description","member":"Description","type":"String"},{"title":"Amount","member":"Amount","type":"String","encoded":false},{"title":"Balance","member":"Balance","type":"String"}], total:0, currentPage:1, sortMode:'single', ajax:{"selectUrl":"/TransactionHistory/_Index"}, onDataBound:onDataBound, detail:{"template":"%3c#= DetailsClient #%3e"}, noRecordsTemplate:'No records to display.'});});
+//]]>
+</script>
+</body>
+</html>
