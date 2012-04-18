@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Griftcard by splaice</title>
+    
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Griftcard</h1>
+        <p>Python Package for Scraping Pre-Paid Giftcard Information</p>
+        <p class="view"><a href="https://github.com/splaice/Griftcard">View the Project on GitHub <small>splaice/Griftcard</small></a></p>
+        <ul>
+          <li><a href="https://github.com/splaice/Griftcard/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/splaice/Griftcard/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/splaice/Griftcard">Fork On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>Griftcard: Python Package for Scraping Pre-Paid Giftcard Information</h1>
+
+<p>This package is meant to enable you to easily access the transaction history
+and details of pre-paid credit card gift cards.</p>
+
+<h2>Features</h2>
+
+<ul>
+<li>Supports scraping giftcardmall.com pre-paid visa giftcards</li>
+<li>Simple Pythonic interface</li>
+</ul><h2>Example</h2>
+
+<p>How to get the details for a giftcard: ::</p>
+
+<pre><code>from griftcard import Griftcard
+grift = Griftcard(card_number='41111111111111',
+    phone_number='5555551111', security_code='111')
+print grift.balance
+print grift.transactions
+</code></pre>
+
+<h2>Contribute</h2>
+
+<ol>
+<li>Fork the project on github to start making your changes</li>
+<li>Send pull requests with your bug fixes or features</li>
+<li>Submit and create issues on github</li>
+</ol>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/splaice">splaice</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
